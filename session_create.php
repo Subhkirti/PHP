@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    $i=0;
-    while ($i<=5){
-        echo "$i<br>";
-        $i++;
-    }
-  
-    ?>
+<?php
+session_start();
+$_SESSION["favicon"]='nike';
+echo $_SESSION["favicon"];
+// x
+
+?>
 </body>
 </html>

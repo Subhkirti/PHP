@@ -8,12 +8,10 @@
 </head>
 <body>
     <?php
-    $i=0;
-    while ($i<=5){
-        echo "$i<br>";
-        $i++;
-    }
+        $a=2;
+        ($a===2)?print "equal": print "Not equal";
   
+
     ?>
 </body>
 </html>

@@ -8,12 +8,17 @@
 </head>
 <body>
     <?php
-    $i=0;
-    while ($i<=5){
-        echo "$i<br>";
-        $i++;
+    $x=34;
+    $y=78;
+    if ($x>$y){
+        echo "$x Large Number";
     }
-  
+    else if ($x===$y){
+        echo "Equal Number $x and $y";
+    }
+    else{
+        echo "$y Large Number";
+    }
     ?>
 </body>
 </html>

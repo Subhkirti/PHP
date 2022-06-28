@@ -1,7 +1,8 @@
-<?php 
-function  my(){
-    $d="wsadsdf";
-    echo $d;
+<?php
+function hello(){
+    echo "Hello World!<br>";
 }
-my()
+hello();
+hello();
+hello();
 ?>

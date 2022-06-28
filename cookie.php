@@ -1,3 +1,9 @@
+<?php
+// setcookie(variable_name,value,time,path,domain,secure,httponly)
+$name="Name";
+$value="Kirti";
+setcookie($name,$value,time()+24000,'/');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +14,10 @@
 </head>
 <body>
     <?php
-    $i=0;
-    while ($i<=5){
-        echo "$i<br>";
-        $i++;
-    }
-  
+    // if (!isset($_COOKIE[$name])){
+    //     echo 'Cookie is not set';
+    // }
+    // echo $_COOKIE[$name];
     ?>
 </body>
 </html>
